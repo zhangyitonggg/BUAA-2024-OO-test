@@ -1,3 +1,3 @@
-BUAA 2024 OO 部分作业评测机
+## BUAA 2024 OO 部分作业评测机
 
-由wxf zyt wxm等人合作完成
+由wxf zyt wxm dhj等人合作完成
