@@ -9,7 +9,7 @@ from colorama import Fore, Back, Style
 import signal
 
 def execute_java(stdin, name):
-    cmd = ['java', '-jar', '--enable-preview', name]
+    cmd = ['java', '-jar', name]
     start_time = time.time()
     proc = subprocess.Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     end_time = time.time()

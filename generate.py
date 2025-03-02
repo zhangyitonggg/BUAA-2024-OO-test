@@ -89,13 +89,13 @@ def getConFactor():
 
     rValue = random.uniform(0,1)
     if (rValue < 0.1):
-        string = string + getWhite() + getZero() + str(random.choice(numPool))
+        string = string + getZero() + str(random.choice(numPool))
     elif (rValue < 0.3):
-        string = string + getWhite() + getZero() + str(random.randint(0,15))
+        string = string + getZero() + str(random.randint(0,15))
     elif (rValue < 0.4):
-        string = string + getWhite() + getZero() + str(random.randint(2147483647,4147483647))
+        string = string + getZero() + str(random.randint(2147483647,4147483647))
     else:
-        string = string + getWhite() + getZero() + str(random.randint(0, 100))
+        string = string + getZero() + str(random.randint(0, 100))
 
     return string, calculate(string)
 
@@ -106,7 +106,7 @@ def getPowFactor():
 
     if (random.uniform(0,1) < 0.5):
         string = string + getWhite() + "+"
-    string = string + getWhite() + str(random.choice(expPool))
+    string = string + str(random.choice(expPool))
 
     return string, calculate(string)
 
